@@ -1,6 +1,6 @@
 # 🧠 TaskCamp – AI-Powered Smart Task Manager
 
-TaskCamp is a **GPT-4 integrated task management platform** that doesn't just store your to-dos — it helps you **generate**, **prioritize**, and **break them into actionable subtasks** with deadlines. Built with **Next.js 14**, **Supabase**, and **OpenAI**, it's the productivity assistant you've always wanted.
+TaskCamp is a **GPT-4 integrated task management platform** that doesn't just store your to-dos — it helps you **generate**, **prioritize**, and **break them into actionable subtasks** with deadlines. Built with **Next.js 15**, **Supabase**, and **OpenAI**, it's the productivity assistant you've always wanted.
 
 ---
 
