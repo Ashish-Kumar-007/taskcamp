@@ -139,7 +139,7 @@ export default function Home() {
       <section className="pt-24 pb-20 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* <motion.div {...fadeInUp}>
+            <motion.div {...fadeInUp}>
               <Badge className="bg-primary/10 text-primary hover:bg-primary/20 mb-6">
                 <Sparkles className="h-4 w-4 mr-2" />
                 Powered by GPT-4
@@ -163,7 +163,7 @@ export default function Home() {
                   className="bg-primary text-white hover:bg-primary/90 text-lg px-8 py-4"
                 >
                   <Rocket className="h-5 w-5 mr-2" />
-                  Start Free Trial
+                  Join and Start Now
                 </Button>
                 <Button
                   variant="outline"
@@ -175,25 +175,16 @@ export default function Home() {
                 </Button>
               </div>
 
-              <div className="flex items-center space-x-6 text-sm text-gray-500">
-                <div className="flex items-center">
-                  <CheckCircle className="h-4 w-4 text-accent mr-2" />
-                  No credit card required
-                </div>
-                <div className="flex items-center">
-                  <Users className="h-4 w-4 text-accent mr-2" />
-                  10,000+ happy users
-                </div>
-              </div>
-            </motion.div> */}
 
-            {/* <motion.div {...fadeIn} className="lg:animate-float">
+            </motion.div>
+
+            <motion.div {...fadeIn} className="lg:animate-float">
               <img
                 src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
                 alt="Modern productivity workspace"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
-            </motion.div> */}
+            </motion.div>
           </div>
         </div>
       </section>
@@ -774,32 +765,12 @@ export default function Home() {
                 className="bg-white text-primary hover:bg-gray-50 px-8 py-4 text-lg"
               >
                 <Rocket className="h-5 w-5 mr-2" />
-                Start Free Trial
+                Get Started Now
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg"
-              >
-                <Calendar className="h-5 w-5 mr-2" />
-                Book a Demo
-              </Button>
+             
             </div>
 
-            <div className="flex items-center justify-center space-x-8 text-indigo-200 text-sm">
-              <div className="flex items-center">
-                <Shield className="h-4 w-4 mr-2" />
-                Enterprise-grade security
-              </div>
-              <div className="flex items-center">
-                <RotateCcw className="h-4 w-4 mr-2" />
-                Cancel anytime
-              </div>
-              <div className="flex items-center">
-                <Headphones className="h-4 w-4 mr-2" />
-                24/7 support
-              </div>
-            </div>
+            
           </motion.div>
         </div>
       </section>
